@@ -464,6 +464,19 @@ kubectl delete deployment alpaca bandicoot be-default
 
 ```
 
+## Chapter 9. ReplicaSets
+
+You need multiple replicas of a Pod to solve for the following:
+
+- Redundancy - Failure toleration by running multiple instances.
+- Scale - Higher request-processing capacity by running multiple instances.
+- Sharding - Different replicas can handle different parts of a computation in
+  parallel.
+
+```
+
+```
+
 ## Resources
 
 - [Kubernetes Up and Running][3]
