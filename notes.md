@@ -193,7 +193,7 @@ kubectl logs kuard
 kubectl logs kuard -f
 kubectl logs kuard --previous
 kubectl exec kuard -- date
-kubectl exec -it kuard -- ash
+kubectl exec -it kuard -- bash
 kubectl apply -f 5-2-kuard-pod-health.yaml
 kubectl port-forward kuard 8080:8080
 
